@@ -1,0 +1,4 @@
+name: gatsby-drupal-adventure
+recipe: drupal9
+config:
+  webroot: .
