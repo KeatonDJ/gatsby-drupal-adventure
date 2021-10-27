@@ -1,4 +1,24 @@
 name: gatsby-drupal-adventure
 recipe: drupal9
 config:
-  webroot: .
+  webroot: ./web
+services:
+  appserver:
+    build_as_root:
+      - >
+        apt-get update -y
+        && apt-get upgrade -y
+    build:
+      - >
+        touch /var/www/.bashrc
+  phpmyadmin:
+    type: phpmyadmin
+    hosts:
+      - database
+tooling:
+  blt:
+    service: appserver
+  npm:
+    service: appserver
+  npx:
+    service: appserver

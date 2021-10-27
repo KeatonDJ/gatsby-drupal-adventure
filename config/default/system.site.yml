@@ -1,0 +1,14 @@
+uuid: d1b2519c-0179-4700-9690-b2cbfedfbff4
+name: 'Gatsby Drupal Adventure'
+mail: gatsby@gatsby-adventure.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

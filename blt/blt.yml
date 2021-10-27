@@ -1,2 +1,22 @@
 project:
-  machine_name: app
+  machine_name: gatsby_drupal_adventure
+  prefix: GDA
+  human_name: 'Gatsby Drupal Adventure'
+  profile:
+    name: lightning
+  local:
+    hostname: gatsby-drupal-adventure
+docroot: /app/web
+drupal:
+  db:
+    database: drupal9
+    username: drupal9
+    password: drupal9
+    host: database
+    port: 3306
+cm:
+  core:
+      install_from_config: true
+setup:
+  strategy: import
+  dump-file: "../databases/gatsby.sql"
