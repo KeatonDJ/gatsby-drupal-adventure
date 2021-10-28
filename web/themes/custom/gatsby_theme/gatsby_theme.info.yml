@@ -1,0 +1,6 @@
+name: Gatsby Theme
+type: theme
+description: "Default Theme"
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: olivero

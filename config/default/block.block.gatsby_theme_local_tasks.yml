@@ -1,0 +1,22 @@
+uuid: ec98aed3-4326-4805-bc6e-cde9af16286d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gatsby_theme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: gatsby_theme_local_tasks
+theme: gatsby_theme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

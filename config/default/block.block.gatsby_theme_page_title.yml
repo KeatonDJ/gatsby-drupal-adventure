@@ -1,0 +1,20 @@
+uuid: 799c1f52-8530-4e02-b787-884c7a44e76d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gatsby_theme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: gatsby_theme_page_title
+theme: gatsby_theme
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
