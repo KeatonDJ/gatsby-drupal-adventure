@@ -24,6 +24,7 @@
         "drupal/core-project-message": "^9.2",
         "drupal/core-recommended": "^9.2",
         "drupal/devel": "^4.1",
+        "drupal/gatsby": "^1.0@RC",
         "kint-php/kint": "^3.3"
     },
     "conflict": {

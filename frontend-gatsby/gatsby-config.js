@@ -1,3 +1,11 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
+if (process.env.NODE_ENV === "development") {
+  process.env.ENABLE_GATSBY_REFRESH_ENDPOINT=true;
+}
+
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
@@ -19,8 +27,9 @@ module.exports = {
     {
       resolve: "gatsby-source-drupal",
       options: {
-        baseUrl: process.env.drupalBaseUrl || "http://gatsby-drupal-adventure.lndo.site/"
+        baseUrl: process.env.drupalBaseUrl || "http://gatsby-drupal-adventure.lndo.site/",
       },
     },
   ],
 };
+

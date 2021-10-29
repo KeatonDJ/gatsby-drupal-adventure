@@ -49,6 +49,7 @@ module:
   views_ui: 0
   webprofiler: 0
   views: 10
+  gatsby: 100
   standard: 1000
 theme:
   bartik: 0
