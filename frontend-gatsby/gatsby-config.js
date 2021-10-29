@@ -16,5 +16,11 @@ module.exports = {
       },
       __key: "images",
     },
+    {
+      resolve: "gatsby-source-drupal",
+      options: {
+        baseUrl: process.env.drupalBaseUrl || "http://gatsby-drupal-adventure.lndo.site/"
+      },
+    },
   ],
 };
