@@ -20,3 +20,8 @@ cm:
 setup:
   strategy: import
   dump-file: "../databases/gatsby.sql"
+command-hooks:
+  frontend-reqs:
+    command: "${repo.root}/blt/blt_scripts/frontend-reqs.sh ${repo.root}"
+  frontend-assets:
+    command: "${repo.root}/blt/blt_scripts/frontend-assets.sh ${repo.root}"
