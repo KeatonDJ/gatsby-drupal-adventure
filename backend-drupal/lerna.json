@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "web/modules/custom/**",
+    "web/themes/custom/**"
+  ],
+  "version": "0.0.1"
+}

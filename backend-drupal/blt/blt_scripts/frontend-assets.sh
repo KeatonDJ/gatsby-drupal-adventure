@@ -8,7 +8,7 @@ if [ -z "$1" ]; then echo "Please provide an npm package path."; exit 1; fi
 
 if command -v npm
 then
-    echo "Running build npm"
+    echo "Running npm build"
     echo "Version: ${GREEN}" $(node -v)
     echo $(npm run build --prefix $1)
 else

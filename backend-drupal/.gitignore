@@ -36,3 +36,6 @@ deployment_identifier
 
 # Ignore .env files as they are personal
 /.env
+
+# Node
+/node_modules/

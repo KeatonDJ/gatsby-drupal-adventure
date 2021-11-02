@@ -4,9 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"Build\""
+    "bootstrap": "npx lerna bootstrap",
+    "build": "npx lerna run build",
+    "build:dev": "npx lerna run build:dev",
+    "refresh": "npx lerna run refresh",
+    "start": "npx lerna run --parallel start",
+    "postinstall": "npx lerna run postinstall"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }

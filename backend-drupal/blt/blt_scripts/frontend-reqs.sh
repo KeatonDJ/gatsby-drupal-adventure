@@ -8,9 +8,9 @@ if [ -z "$1" ]; then echo "Please provide an npm package path."; exit 1; fi
 
 if command -v npm
 then
-    echo "Running build npm"
+    echo "Running npm bootstrap"
     echo "Version: ${GREEN}" $(node -v)
-    echo $(npm i --prefix $1)
+    echo $(npm run bootstrap --prefix $1)
 else
     echo "${RED}NPM NOT FOUND. Front end will not function properly without node and NPM being installed!"
 fi
