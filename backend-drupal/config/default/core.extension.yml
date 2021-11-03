@@ -12,10 +12,13 @@ module:
   color: 0
   comment: 0
   config: 0
+  consumers: 0
   contact: 0
   contextual: 0
+  ctools: 0
   datetime: 0
   dblog: 0
+  decoupled_router: 0
   devel: 0
   dynamic_page_cache: 0
   editor: 0
@@ -27,9 +30,12 @@ module:
   history: 0
   image: 0
   jsonapi: 0
+  jsonapi_extras: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0
+  next: 0
+  next_jsonapi: 0
   node: 0
   options: 0
   page_cache: 0
@@ -40,16 +46,22 @@ module:
   search: 0
   serialization: 0
   shortcut: 0
+  simple_oauth: 0
+  subrequests: 0
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   user: 0
   views_ui: 0
   webprofiler: 0
+  pathauto: 1
   views: 10
   gatsby: 100
+  gatsby_instantpreview: 100
+  gatsby_fastbuilds: 101
   standard: 1000
 theme:
   bartik: 0

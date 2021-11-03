@@ -1,0 +1,22 @@
+uuid: 0c7a9bba-d548-4aab-9271-f27233d1c3ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: textile_path
+label: 'Textile Path'
+type: 'canonical_entities:node'
+pattern: 'textile/[node:title]'
+selection_criteria:
+  ec9479d3-24e9-4f4b-9a21-cd4edd6c4abf:
+    id: node_type
+    bundles:
+      textile: textile
+    negate: false
+    context_mapping:
+      node: node
+    uuid: ec9479d3-24e9-4f4b-9a21-cd4edd6c4abf
+selection_logic: and
+weight: -5
+relationships: {  }

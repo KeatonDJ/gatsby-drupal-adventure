@@ -1,0 +1,9 @@
+uuid: 7e07b839-0050-4687-9db6-765318295b82
+langcode: en
+status: true
+dependencies: {  }
+id: node.textile
+site_resolver: site_selector
+configuration:
+  sites:
+    next_adventure: next_adventure

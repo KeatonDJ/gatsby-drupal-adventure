@@ -1,0 +1,9 @@
+uuid: 556470d4-ee4f-4d4a-856e-dbff7f17aa08
+langcode: en
+status: true
+dependencies: {  }
+id: next_adventure
+label: 'Next Adventure'
+base_url: 'http://host.docker.internal:3000'
+preview_url: 'http://host.docker.internal:3000/api/preview'
+preview_secret: preview-secret

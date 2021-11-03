@@ -1,0 +1,12 @@
+uuid: 03479e31-a0f8-474f-b85f-7d9d9f80acde
+langcode: en
+status: true
+dependencies: {  }
+id: next_adventure
+label: 'Next Adventure'
+weight: 3
+is_admin: null
+permissions:
+  - 'access user profiles'
+  - 'bypass node access'
+  - 'issue subrequests'

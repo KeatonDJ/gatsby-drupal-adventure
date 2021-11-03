@@ -1,0 +1,14 @@
+uuid: b8f92ded-0650-44d4-b242-ba08fdddfa61
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.next_adventure
+  module:
+    - user
+id: user_add_role_action.next_adventure
+label: 'Add the Next Adventure role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: next_adventure
