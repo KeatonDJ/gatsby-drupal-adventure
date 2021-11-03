@@ -1,0 +1,32 @@
+uuid: a1567388-9a7a-44dd-9463-744eb86a16a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.textile.body
+    - field.field.node.textile.field_textile_type
+    - node.type.textile
+  module:
+    - text
+    - user
+id: node.textile.teaser
+targetEntityType: node
+bundle: textile
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_textile_type: true

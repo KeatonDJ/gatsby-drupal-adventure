@@ -1,0 +1,37 @@
+uuid: 7f97b930-d1f2-4385-a848-d19e5beaefd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.textile.body
+    - field.field.node.textile.field_textile_type
+    - node.type.textile
+  module:
+    - options
+    - text
+    - user
+id: node.textile.default
+targetEntityType: node
+bundle: textile
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_textile_type:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

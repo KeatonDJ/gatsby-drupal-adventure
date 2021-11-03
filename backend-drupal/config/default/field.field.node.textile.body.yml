@@ -1,0 +1,23 @@
+uuid: 815b8b2e-e1c6-4ffa-a53d-067ddddcbab0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.textile
+  module:
+    - text
+id: node.textile.body
+field_name: body
+entity_type: node
+bundle: textile
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

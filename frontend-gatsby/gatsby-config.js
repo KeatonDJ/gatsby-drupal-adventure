@@ -28,6 +28,7 @@ module.exports = {
       resolve: "gatsby-source-drupal",
       options: {
         baseUrl: process.env.drupalBaseUrl || "http://gatsby-drupal-adventure.lndo.site/",
+        fastBuilds: true,
       },
     },
   ],

@@ -1,0 +1,23 @@
+uuid: 85f7b302-8f2e-428c-bfcc-b2dbbb0926a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_textile_type
+    - node.type.textile
+  module:
+    - options
+id: node.textile.field_textile_type
+field_name: field_textile_type
+entity_type: node
+bundle: textile
+label: 'Textile Type'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: Fabric
+default_value_callback: ''
+settings: {  }
+field_type: list_string
