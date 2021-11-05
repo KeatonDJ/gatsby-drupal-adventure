@@ -30,8 +30,8 @@ module.exports = {
         baseUrl: process.env.drupalBaseUrl || "http://gatsby-drupal-adventure.lndo.site/",
         fastBuilds: true,
         basicAuth: {
-          username: process.env.USERNAME,
-          password: process.env.PASSWORD
+          username: process.env.DRUPALUSERNAME,
+          password: process.env.DRUPALPASSWORD
         }
       },
     },
